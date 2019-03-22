@@ -1,8 +1,8 @@
 'use strict';
-let startCalculation = document.getElementById('start'),
+let startCalculation = document.getElementById('start'), //Получить кнопку "Начать расчет" через id
 blockThroughClasses = document.querySelectorAll('.result'),
-chooseExpenses = document.getElementsByClassName('expenses-item'),
-expensesBtn = document.getElementsByTagName('button'),
+chooseExpenses = document.getElementsByClassName('expenses-item'), //Получить поля(input) c обязательными расходами через класс. (class=”expenses-item”)
+expensesBtn = document.getElementsByTagName('button'), // Получить кнопки “Утвердить”  через Tag, каждую в своей переменной. 
 optionalexpensesItem = document.querySelectorAll(' .optionalexpenses-item'),
 chooseIncomeLabel = document.querySelector('.choose-income-label'),
 checksavings = document.querySelector('.checksavings'),
