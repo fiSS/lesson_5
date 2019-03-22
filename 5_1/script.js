@@ -21,11 +21,11 @@ let title = document.getElementById('title'), //обращаемся по id
      let div = document.createElement('div'),
           text = document.createTextNode("ТЕСТ!"); //добавляем какой то текст на страницу
      
-     console.log(text);
+     //console.log(text);
      div.classList.add('black'); //добавили к div класс.
     
      document.body.appendChild(div); //добавили div в дерево
-     console.log(div);
+     //console.log(div);
      
 
 
@@ -40,7 +40,7 @@ adv[3].remove();
 
 
 let back = document.querySelector('body');// достучаличь до body
-console.log(back);
+//console.log(back);
 
 back.style.background = 'url(img/apple_true.jpg)'; //меняем bacgground
 
