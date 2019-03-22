@@ -58,4 +58,7 @@ let listItem = document.createElement('li'), //создаем новый еле�
 
  
  let question = prompt("Ваше отношение к технике APLE?", "");
- document.write(question);
+ let questionResult = document.getElementById('prompt'); //получаем из HTML по class
+ let newDiv = document.createElement('div');  // креейт новый div
+ newDiv.innerHTML = question;  // Помещаем туда комментарий
+ questionResult.appendChild(newDiv);  // Добавляем этот див к эллемнту из HTML
